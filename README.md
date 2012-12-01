@@ -1,6 +1,6 @@
-#  Ever wanted to do your reveal.js presentations as a clokure webapp? 
+#  Ever wanted to do your reveal.js presentations as a clojure webapp? 
 
-Me neither - but here we are. \
+Me neither - but here we are. 
 
 
 

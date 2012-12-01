@@ -51,7 +51,7 @@
    [:div {:class "slides"}
     (big-slide-list 
         "Clojure - another run at lisp"
-          "@michaelneale" (link "developer.cloudbees.com") "https://github.com/michaelneale/clojure-revealjs"
+          "@michaelneale" (link "developer.cloudbees.com") (link "https://github.com/michaelneale/clojure-osdc-2012")
           (image "/clojure_logo.png"))                         
     (slide (image "/cloudbees.png") 
         (link "http://developer.cloudbees.com") (link "http://twitter.com/michaelneale"))
@@ -100,7 +100,7 @@
 
     (big-slide "rest http" (image "/http_rest.png"))
 
-    
+
 
     ]]))
 

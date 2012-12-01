@@ -1,7 +1,15 @@
 #  Ever wanted to do your reveal.js presentations as a clokure webapp? 
 
-Me neither - but here we are. 
+Me neither - but here we are. \
 
+
+
+# Running it
 lein ring server
 
-and then add your slides using hiccup
+# To deploy it for all the world to see:
+lein cloudbees deploy
+
+Edit slides.clj to, um, edit your slides. 
+
+Uses hiccup and reveal.js

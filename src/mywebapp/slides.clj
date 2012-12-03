@@ -145,7 +145,10 @@
     (big-slide-soothe "mutable things" (code-block "(@thing) ;; get current value\n
 ;;set via (send) or (swap!) - in all cases a function passed"))
 
-    (big-slide-list "use recursion" (image "/recurse.png"))
+    (big-slide-list "use recursion" 
+        (image "/recurse.png")
+        "Gotcha:"
+        (code-block "(recur ...) ;; Tail call elimination :("))
 
     (big-slide-list "Clojure brings..." 
         "Lots of existing libraries (JVM)"
@@ -162,6 +165,11 @@
     (big-slide-list "On JVM" "JVM most popular target" "ClojureScript rising fast (popular with people unfamiliar with the JVM)"
                         "currently JVM familiarity helps - a bit"
                         "Many community members not familiar with JVM")
+
+    (big-slide-soothe "ClojureScript" (unordered-list[
+        "Popular in its own right"
+        "For those who are only interested in JS side" 
+        (link "https://github.com/clojure/clojurescript")]))
 
     (big-slide-list "What have I used it for"
         "Monitoring apps"
@@ -202,7 +210,8 @@
 
     (big-slide-list "Easy start"
         (slide (image "/clickstarts.png"))
-        (slide (image "/clickstart.png")))
+        (slide (image "/clickstart.png"))
+        (slide (image "/clojure_app.png")))
 
     (big-slide-soothe "Where to get started?"
         (unordered-list ["install lein"

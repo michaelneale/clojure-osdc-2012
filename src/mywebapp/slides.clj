@@ -213,6 +213,11 @@
         (slide (image "/clickstart.png"))
         (slide (image "/clojure_app.png")))
 
+    (big-slide-list "Editors" 
+        "Emacs (most popular with swank/slime type setup)"
+        "Sumlime Text (my favourite)"
+        "but anything really (all major IDEs)")
+
     (big-slide-soothe "Where to get started?"
         (unordered-list ["install lein"
                         (link "https://github.com/technomancy/leiningen")
